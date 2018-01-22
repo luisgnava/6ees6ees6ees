@@ -6,9 +6,9 @@ this.job = 'make honey';
 this.honeyPot = 0;
 }
 makeHoney() {
-  return honeyPot++;
+  return this.honeyPot += 1;
 }
 giveHoney() {
-  return honeyPot--;
+  return this.honeyPot -= 1;
 }
 };
